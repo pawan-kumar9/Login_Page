@@ -1,0 +1,97 @@
+*{
+    background-color: lightcoral;
+}
+.icons{
+    color: rgb(27, 81, 245);
+    display: flex;
+    justify-content: space-between;
+    max-width: 9%;
+    left:150px;
+    position: relative;
+    background: transparent;
+}
+#soc{
+    font-size: 1.5em;
+    background:transparent;
+    padding:10px;
+    border-radius: 50%;
+}
+#soc1{
+    font-size: 1.5em;
+    background:transparent;
+    padding:10px;
+    border-radius: 50%;
+}
+.inputs{
+        position:relative;
+        width:70%;
+        top: 40px;
+        left: 50px;
+        background: white;
+        }
+input{
+    width: 100%;
+    padding: 6px;
+    outline: 0;
+    border: 8px solid #fff;
+    background : rgb(235, 232, 232);
+    font-size: 15px;
+}
+label{
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+.box1{ position:fixed;
+    top: 40%;
+    left: 38%;
+    width:800px;
+    height:600px;
+    margin-top: -9em;
+    margin-left: -15em;
+}
+
+#div1{
+    background-color:white;
+    float:left;
+    width:50%;
+    height:400px;
+    }
+#div2{
+    background-color:rgb(179, 44, 44);
+    float:right;
+    width:50%;
+    height:400px;
+    justify-content: center;
+    color: white;
+}
+.txt{
+    text-align: center;
+    background: transparent;
+}
+.right{
+    background: transparent;
+    position: relative;
+    top: 30%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+button{
+    background: orangered;
+    border: 1px solid rgb(207, 77, 16);
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+.vertical-center {
+    background: transparent;
+    position: relative;
+    left: 140px;
+}
